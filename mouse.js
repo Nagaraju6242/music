@@ -1,4 +1,4 @@
-var s = -1;
+var s = -2;
 var k = 0;
 var a = new Audio( 'songs/' + s + '.mp3' );
 
@@ -37,7 +37,7 @@ function change(){
     a.pause();
     s++;
     if(s == 11)
-        s = -1;
+        s = -2;
     a = new Audio( 'songs/' + s + '.mp3' );
     document.body.style.background = "#e74c3c";
     x.className = 'btn';
